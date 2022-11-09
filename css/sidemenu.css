@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+}
+:root{
+    --cl-primary: #749F82;
+}
+#sidemenu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: var(--cl-primary);
+}
+#sidemenu .top-sec{
+
+}
+#sidemenu .middle-sec{
+    overflow-y: auto;
+}
+#sidemenu .bottom-sec{
+    margin-top: auto;
+}
+
+
+
+
+
+#maincontent{
+    margin-left: 250px;
+}
